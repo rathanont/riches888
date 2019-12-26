@@ -1,0 +1,28 @@
+// Colors
+$primary: #E0CB73;
+$dark: #161616;
+
+// Body
+$body-bg: black;
+$body-color: white;
+
+// Typography
+$font-family-base: 'Prompt',
+sans-serif;
+
+// Header
+$header-bg: black;
+$header-top-bg: $dark;
+$header-top-color: #848484;
+$nav-link-color:white;
+$nav-link-lg-color:#35110E;
+$nav-link-active-color:$primary;
+$nav-link-bg-active:rgba(black, .1);
+$nav-link-border-color:#3A3A3A;
+$bg-offcanvas: rgba(black, .95);
+
+// Footer
+$footer-bg:$dark;
+$footer-color:#848484;
+
+$enable-responsive-font-sizes:true;
