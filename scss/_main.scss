@@ -1,0 +1,24 @@
+main.promotion{
+  .promotion{
+    &-heading{
+      display: block;
+      max-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+main.download{
+  padding: 2.5rem 0;
+  .download{
+    &-bottom{
+      background: url('../img/bg-welcome.png') repeat-x left top/auto 100%;
+      border-radius: 10px;
+      padding: 1rem;
+      @include media-breakpoint-up(xl){
+        padding: 2.5rem 4rem;
+      }
+    }
+  }
+}
