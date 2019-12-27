@@ -3,6 +3,20 @@ section.banner {
     border-bottom: 3px solid $primary;
 }
 
+// Login
+section.login {
+    padding: 1.5rem 0;
+
+    .login {
+        &-heading {
+            max-width: 185px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
 // Title
 section.title {
     @include rfs(2.5rem 0rem, padding);
@@ -33,6 +47,7 @@ section.title {
 section.welcome {
     position: relative;
     z-index: 0;
+
     .welcome {
         &-card {
             position: relative;
