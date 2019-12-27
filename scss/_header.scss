@@ -2,6 +2,8 @@ header {
     background-color: $header-bg;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: $zindex-fixed;
 
     .header {
         &-top {
@@ -15,7 +17,8 @@ header {
             position: relative;
             padding: 1rem 0;
             z-index: 0;
-            @include media-breakpoint-up(lg){
+
+            @include media-breakpoint-up(lg) {
                 padding: .25rem 0;
             }
 
